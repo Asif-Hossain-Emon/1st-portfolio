@@ -17,9 +17,9 @@ p {
 
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .paraim {
@@ -51,7 +51,8 @@ section {
 
 .sec1 {
     width: 50%;
-    padding: 10px;
+    padding: 10px 3px 10px 10px;
+
 }
 
 .resume {
@@ -68,4 +69,37 @@ section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.box {
+    box-shadow: 10px 10px 50px gray;
+    width: 40%;
+    margin: 10%;
+    padding: 20px;
+}
+
+.sd3 {
+    padding: 20px;
+}
+
+.sec3 {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#s3d1 {
+    border-left: 7px solid forestgreen;
+}
+
+#s3d2 {
+    border-left: 7px solid indianred;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
 }
